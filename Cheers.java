@@ -8,11 +8,11 @@ public class Cheers {
                 char cheked=input.charAt(i);
                 if (cheked=='A'||cheked=='E'||cheked=='F'||cheked=='H'||cheked=='I'||cheked=='L'||cheked=='M'||cheked=='N'||cheked=='O'||cheked=='R'||cheked=='S'||cheked=='X')
                  {
-                        System.out.println("Give me an "+cheked+": "+cheked+"!");
+                        System.out.println("Give me an  "+cheked+": "+cheked+"!");
                 }
                 else
                 {
-                        System.out.println("Give me a "+cheked+": "+cheked+"!");
+                        System.out.println("Give me a  "+cheked+": "+cheked+"!");
 
                 }
             }
