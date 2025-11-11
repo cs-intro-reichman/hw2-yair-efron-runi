@@ -1,6 +1,7 @@
 public class Cheers {
         public static void main(String[] args) {
 	    String input=args[0];
+           input= input.toUpperCase();
             int num=Integer.parseInt(args[1]);
             for(int i=0;i<input.length();i++)
             {
@@ -18,7 +19,7 @@ public class Cheers {
             System.out.println("What does that spell?");
             for(int i=0;i<num;i++)
             {
-                System.out.println(input.toUpperCase()+"!!!");
+                System.out.println(input+"!!!");
             }
         }
 }
