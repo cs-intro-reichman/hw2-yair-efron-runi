@@ -11,7 +11,7 @@ public  class  TestRandom {
 					{
 						plus++;
 					}
-					else{ minus--;}
+					else{ minus++;}
 			}
 			System.out.println("> 0.5:"+ minus+" times");
 			System.out.println("<= 0.5:"+ plus+" times");
