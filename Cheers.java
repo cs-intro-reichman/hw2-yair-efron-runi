@@ -15,7 +15,7 @@ public class Cheers {
 
                 }
             }
-            for(int i=0;i<input.length()-1;i++)
+            for(int i=0;i<num;i++)
             {
                 System.out.println(input+"!!!");
             }
