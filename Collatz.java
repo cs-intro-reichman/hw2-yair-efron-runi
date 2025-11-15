@@ -8,12 +8,12 @@ public class Collatz {
 			if (mode.equals("v"))
 			{
 				int i=1;
-					for( i=1;i<=n;i++)
+					for( i=1;i<=n;i++) // Why use a for loop and not while result != 1? 
 					{
-							boolean sumreached=false;
+							boolean sumreached=false; //camel case -> sumReached
 							sum=i;
 							int count=1;
-							if (i==1) {
+							if (i==1) { // i ==1 is an odd number, so we dont have to repeat code :)
 								System.out.print(sum+" ");
 								sum=(sum*3)+1;
 								count++;
@@ -79,4 +79,13 @@ public class Collatz {
 
 			}
 	}
+
+// Good job!
+// Notice that we could have: 
+//  if (mode.equals('V')) {
+	// blah blah code
+	// }
+// System out print ("Every one of the...blah blah") <- this will print for both mode 'v' and mode 'c'
+// Since for both modes we need the sentence that sums up eveything
+
 
