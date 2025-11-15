@@ -24,3 +24,8 @@ public class TimeCalc {
     
     }
 }
+
+// Great just use camel case naming
+// newhours -> newHours
+// totalminutes -> totalMinutes
+
